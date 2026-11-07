@@ -1,0 +1,365 @@
+{
+  "title": "Gestione attività di progetto",
+  "description": "Dashboard per organizzare attività in stile kanban, controllare le scadenze e filtrare il lavoro per stato e progetto.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo delle attività e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Attività totali",
+          "value": "12"
+        },
+        {
+          "label": "Da fare",
+          "value": "4"
+        },
+        {
+          "label": "In corso",
+          "value": "5"
+        },
+        {
+          "label": "Completate",
+          "value": "3"
+        },
+        {
+          "label": "In scadenza",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Scadenza",
+        "Priorità"
+      ],
+      "rows": [
+        [
+          "Rivedere il flusso di accesso",
+          "Lumo",
+          "Da fare",
+          "18/06/2026",
+          "Alta"
+        ],
+        [
+          "Definire palette visiva",
+          "Vela",
+          "In corso",
+          "20/06/2026",
+          "Media"
+        ],
+        [
+          "Preparare schema delle schermate",
+          "Nubi",
+          "In corso",
+          "21/06/2026",
+          "Alta"
+        ],
+        [
+          "Verificare componenti condivisi",
+          "Lumo",
+          "Da fare",
+          "23/06/2026",
+          "Media"
+        ],
+        [
+          "Raccogliere note di revisione",
+          "Vela",
+          "Completata",
+          "14/06/2026",
+          "Bassa"
+        ],
+        [
+          "Organizzare backlog iniziale",
+          "Nubi",
+          "Completata",
+          "12/06/2026",
+          "Media"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Scadenza",
+        "Priorità"
+      ]
+    },
+    {
+      "id": "bacheca-kanban",
+      "title": "Bacheca kanban",
+      "description": "Vista delle attività raggruppate per stato, con progetti, scadenze e priorità consultabili e filtrabili.",
+      "metrics": [
+        {
+          "label": "Da fare",
+          "value": "4"
+        },
+        {
+          "label": "In corso",
+          "value": "5"
+        },
+        {
+          "label": "In revisione",
+          "value": "2"
+        },
+        {
+          "label": "Completate",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Scadenza",
+        "Priorità"
+      ],
+      "rows": [
+        [
+          "Rivedere il flusso di accesso",
+          "Lumo",
+          "Da fare",
+          "18/06/2026",
+          "Alta"
+        ],
+        [
+          "Verificare componenti condivisi",
+          "Lumo",
+          "Da fare",
+          "23/06/2026",
+          "Media"
+        ],
+        [
+          "Preparare guida di avvio",
+          "Vela",
+          "Da fare",
+          "25/06/2026",
+          "Bassa"
+        ],
+        [
+          "Allineare struttura dei moduli",
+          "Nubi",
+          "Da fare",
+          "27/06/2026",
+          "Media"
+        ],
+        [
+          "Definire palette visiva",
+          "Vela",
+          "In corso",
+          "20/06/2026",
+          "Media"
+        ],
+        [
+          "Preparare schema delle schermate",
+          "Nubi",
+          "In corso",
+          "21/06/2026",
+          "Alta"
+        ],
+        [
+          "Rifinire navigazione",
+          "Lumo",
+          "In corso",
+          "22/06/2026",
+          "Alta"
+        ],
+        [
+          "Aggiornare etichette di stato",
+          "Vela",
+          "In corso",
+          "24/06/2026",
+          "Bassa"
+        ],
+        [
+          "Consolidare note di progetto",
+          "Nubi",
+          "In corso",
+          "26/06/2026",
+          "Media"
+        ],
+        [
+          "Controllare vista riepilogativa",
+          "Lumo",
+          "In revisione",
+          "28/06/2026",
+          "Media"
+        ],
+        [
+          "Verificare ordinamento attività",
+          "Vela",
+          "In revisione",
+          "29/06/2026",
+          "Bassa"
+        ],
+        [
+          "Raccogliere note di revisione",
+          "Vela",
+          "Completata",
+          "14/06/2026",
+          "Bassa"
+        ],
+        [
+          "Organizzare backlog iniziale",
+          "Nubi",
+          "Completata",
+          "12/06/2026",
+          "Media"
+        ],
+        [
+          "Confermare struttura bacheca",
+          "Lumo",
+          "Completata",
+          "13/06/2026",
+          "Alta"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Scadenza",
+        "Priorità"
+      ]
+    },
+    {
+      "id": "elenco-attivita",
+      "title": "Elenco attività",
+      "description": "Tabella filtrabile per consultare e aggiornare le attività, con ricerca, stato, progetto e scadenza.",
+      "metrics": [
+        {
+          "label": "Risultati",
+          "value": "12"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Scadenza",
+        "Priorità"
+      ],
+      "rows": [
+        [
+          "Rivedere il flusso di accesso",
+          "Lumo",
+          "Da fare",
+          "18/06/2026",
+          "Alta"
+        ],
+        [
+          "Definire palette visiva",
+          "Vela",
+          "In corso",
+          "20/06/2026",
+          "Media"
+        ],
+        [
+          "Preparare schema delle schermate",
+          "Nubi",
+          "In corso",
+          "21/06/2026",
+          "Alta"
+        ],
+        [
+          "Rifinire navigazione",
+          "Lumo",
+          "In corso",
+          "22/06/2026",
+          "Alta"
+        ],
+        [
+          "Verificare componenti condivisi",
+          "Lumo",
+          "Da fare",
+          "23/06/2026",
+          "Media"
+        ],
+        [
+          "Aggiornare etichette di stato",
+          "Vela",
+          "In corso",
+          "24/06/2026",
+          "Bassa"
+        ],
+        [
+          "Preparare guida di avvio",
+          "Vela",
+          "Da fare",
+          "25/06/2026",
+          "Bassa"
+        ],
+        [
+          "Consolidare note di progetto",
+          "Nubi",
+          "In corso",
+          "26/06/2026",
+          "Media"
+        ],
+        [
+          "Allineare struttura dei moduli",
+          "Nubi",
+          "Da fare",
+          "27/06/2026",
+          "Media"
+        ],
+        [
+          "Controllare vista riepilogativa",
+          "Lumo",
+          "In revisione",
+          "28/06/2026",
+          "Media"
+        ],
+        [
+          "Verificare ordinamento attività",
+          "Vela",
+          "In revisione",
+          "29/06/2026",
+          "Bassa"
+        ],
+        [
+          "Raccogliere note di revisione",
+          "Vela",
+          "Completata",
+          "14/06/2026",
+          "Bassa"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Scadenza",
+        "Priorità"
+      ]
+    },
+    {
+      "id": "nuova-attivita",
+      "title": "Nuova attività",
+      "description": "Aggiungi un’attività assegnandola a un progetto e impostando stato, scadenza e priorità.",
+      "metrics": [],
+      "columns": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Scadenza",
+        "Priorità"
+      ],
+      "rows": [],
+      "form": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Scadenza",
+        "Priorità"
+      ]
+    }
+  ]
+}
